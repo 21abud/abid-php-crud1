@@ -1,0 +1,59 @@
+/* all style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* login page style str */
+.container{
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid #999;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color:rgba(226, 250, 232, 0.986);
+    opacity: 90%;
+}
+
+h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.row{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+/* login page style end */
+
+/* inventory style str */
+
+.row.table{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+table{
+    border: 1px solid #999;
+}
+
+th, td{
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+/* add style str */
+.container.add .row.content{
+    display: flex;
+    justify-content: flex-start;
+}
